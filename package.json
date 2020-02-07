@@ -1,0 +1,18 @@
+{
+  "name": "json-graph-deps-cli",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": "Roman Coedo <rcoedo@nibelheim.es>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcoedo/json-graph-deps-cli"
+  },
+  "bin": {
+      "jgd": "./cli.js"
+  },
+  "dependencies": {
+    "command-line-args": "5.1.1",
+    "command-line-usage": "6.1.0",
+    "json-graph-deps": "1.0.2"
+  }
+}
